@@ -4,7 +4,7 @@ namespace Cyy\Sms\Messages;
 
 use Cyy\Sms\Senders\SenderInterface;
 
-abstract class BaseMessage extends \yii\base\BaseObject
+abstract class BaseMessage extends \yii\base\Object
 {
     /**
      * SMS sign name
